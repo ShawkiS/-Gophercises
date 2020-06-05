@@ -2,9 +2,9 @@ package main
 
 import (
 	"encoding/json"
-	"os"
 	"flag"
 	"fmt"
+	"os"
 	"../cyoa"
 )
 
@@ -23,11 +23,11 @@ func main()  {
 
 	d := json.NewDecoder(f)
 
-	var story cyoa.Stroy
+	var story cyoa
 	if err:= d.Decode(&story); err != nil {
 		panic(err)
 	}
 
-	fmt.Printf("%+v", Stroy)
+	fmt.Printf("%+v", story)
 	 
 }
