@@ -1,2 +1,2 @@
-# -Gophercises
+# Gophercises
 Some Golang exercises 
